@@ -10,7 +10,6 @@ import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gal
   templateUrl: './member-detail.component.html',
   styleUrls: ['./member-detail.component.css']
 })
-
 export class MemberDetailComponent implements OnInit {
   user: User;
   galleryOptions: NgxGalleryOptions[];
@@ -49,4 +48,5 @@ export class MemberDetailComponent implements OnInit {
     }
     return imageUrls;
   }
+
 }
