@@ -121,7 +121,7 @@ namespace DatingApp.API.Controllers
                 return NoContent();
 
             throw new Exception("Error deleting the message");
-        }
+        } 
 
         [HttpPost("{id}/read")]
         public async Task<IActionResult> MarkMessageAsRead(int userId, int id)
